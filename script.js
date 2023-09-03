@@ -12,7 +12,7 @@ setInterval(() => {
         count += 1;
         num.innerText = count + "%";
     }
-}, 37)
+}, 37);
 
 
 setInterval(() => {
@@ -31,4 +31,4 @@ setInterval(() => {
         count2 += 1;
         num2.innerText = `${count2}%`;
     }
-}, 125)
+}, 125);
