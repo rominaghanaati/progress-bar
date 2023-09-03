@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: #e3edf7;       
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    column-gap: 10rem;
+}
+
+
+.line {
+    margin-top: 1.52rem;
+    font-weight: bold;
+}
+
+.number {
+    position: absolute;
+    font-weight: 600px;
+    color: #555;
+
+}
+
+
+
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, .2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, .7),
+                -.5px -.5px 0px rgba(255, 255, 255, 1),
+                .5px .5px 0px rgba(0, 0, 0, .15),
+                0px 12px 10px -10px rgba(0, 0, 0, .05);
+    padding:2rem;
+}
+
+.html {
+        fill-opacity: .05;
+        stroke: url(#myGradient);
+        stroke-width: 1.8px;
+        stroke-dasharray: 38;
+        stroke-dashoffset: 38;
+        animation: anim1 3s linear forwards;
+    }
+    
+.css {
+        /* fill: none; */
+        fill-opacity: .05;
+        stroke: url(#myGradient);
+        stroke-width: 1.8px;
+        stroke-dasharray: 38;    
+        stroke-dashoffset: 38;
+        animation: anim 3s linear forwards;
+}
+
+.js {
+    fill-opacity: .05;
+    stroke: url(#myGradient);
+    stroke-width: 1.8px;
+    stroke-dasharray: 38;  
+    stroke-dashoffset: 38;
+    animation: anim2 3s linear forwards;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 6.84;
+    }
+}
+
+@keyframes anim1{
+    100%{
+        stroke-dashoffset: 20.14;
+    }
+}
+
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 29.26;
+    }
+}
